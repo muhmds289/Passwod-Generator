@@ -1,0 +1,20 @@
+h1 {text-align: center;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   background-color: whitesmoke;
+   font-size: 35px;
+   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif  
+}
+h3 {
+   border-bottom: thin lightgray;
+   line-break: strict;
+   margin-top: 22px;
+   margin-bottom: 25px;
+}
+p {
+   border: dashed thin grey;
+   margin-top: 50px;
+   margin-bottom: 50px;
+   padding: 50px;
+   text-align: center;
+}
