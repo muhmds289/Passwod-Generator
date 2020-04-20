@@ -1,44 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Password Generator</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-    </head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Password Generator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
 <body>
-    
+  <div class="wrapper">
     <header>
-        <h1>Password Generator</h1> 
+      <h1>Password Generator</h1>
     </header>
-
-    <div class="container">
-        <div class="title2">
-     <h3>Generate a Password</h3>
-        <br /> 
-        
-    
-
-    <div><p id="display">Your Secured Password</p></div>
-            <div class="row justify-content-around">    
-                <button id="generatepass" type="button" class="btn btn-primary btn-lg"> Generate Password</button>
-                
-                <button onclick="copytoClipboard()" type="button" class="btn btn-secondary btn-lg"> Copy to Clipboard</button>
-            </div>    
-        </div>
-
-          </div>
-        </div>
+    <div class="card">
+      <div class="card-header">
+        <h2>Generate a Password</h2>
+      </div>
+      <div class="card-body">
+        <textarea readonly id="password" placeholder="Your Secure Password" aria-label="Generated Password"></textarea>
+      </div>
+      <div class="card-footer">
+        <button id="generate" class="btn">Generate Password</button>
+      </div>
     </div>
-    <div class="previous Password"></div>
-    <b>previously Generated Passwords</b>
-    <br />
-    <div id="lastNums"></div>
-<footer>
-<p>© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.</p>
-</footer>
-<script src="./script.js"></script>
+  </div>
+  <script src="script.js"></script>
 </body>
+
 </html>
